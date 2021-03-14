@@ -14,12 +14,17 @@
 }
 
 .App-header {
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(35px + 2vmin);
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://www.w3schools.com/w3images/pizza.jpg);
 }
 
 .App-link {
@@ -31,9 +36,9 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(10px)
+    transform: translateY(10px);
   }
   100% {
-    transform: translateY(0px)
+    transform: translateY(0px);
   }
 }
